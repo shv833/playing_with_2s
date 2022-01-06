@@ -13,5 +13,7 @@ int bitwiseComplement(int n) {
 }
 
 int main() {
-    return bitwiseComplement(16);
+    int n;
+    std::cin >> n;
+    return bitwiseComplement(n);
 }
